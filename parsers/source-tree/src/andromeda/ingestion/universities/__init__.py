@@ -1,0 +1,1 @@
+"""University-specific ingestion adapters."""

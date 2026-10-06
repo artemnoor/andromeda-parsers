@@ -1,0 +1,141 @@
+{
+  "campaign_year": 2026,
+  "scope": "BMSTU head campus in Moscow",
+  "primary_source": {
+    "source_url": null,
+    "source_type": "user_provided_authoritative_admission_plan",
+    "sha256": "553f0c31af6038441770aabdf86acd79c77000cbe5fcb193991f6cf4054597d0",
+    "retrieved_at": "2026-10-03T12:50:55.107065+00:00",
+    "moscow_rows": 127
+  },
+  "archived_website_source": {
+    "source_url": "https://api.www.bmstu.ru/file/125049/download",
+    "sha256": "cfc63d7061787c409de9e75f90f9384c4d60400a18b1bcb2e6bd4643f631c62f",
+    "parsed_moscow_offer_rows": 129,
+    "all_source_table_rows": 170
+  },
+  "comparison_source_method": "reparsed_archived_official_admission_plan_pdf",
+  "comparison_parse_error": null,
+  "all_source_table_rows_retained": 165,
+  "branch_rows_excluded_from_moscow_offer_set": 29,
+  "comparison": {
+    "matched_rows_by_exact_department_code_and_profile_name": 122,
+    "matched_exact_profile_keys": 104,
+    "conflicting_fields_resolved_by_priority": 10,
+    "conflicts": [
+      {
+        "educational_program_key": "program:bmstu:01.03.02:ИУ9:01.03.02-01:source:1-1",
+        "program_name_in_document": "Математические методы генерации и анализа эффективного программного кода",
+        "direction_code": "01.03.02",
+        "department_code": "ИУ9",
+        "field": "paid_places_at_department",
+        "archived_website_value": 20,
+        "authoritative_attachment_value": 18,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:09.03.01:РК6:09.03.01-11:source:3-2",
+        "program_name_in_document": "Цифровые технологии проектирования и информационной поддержки жизненного цикла промышленной продукции",
+        "direction_code": "09.03.01",
+        "department_code": "РК6",
+        "field": "paid_places_at_department",
+        "archived_website_value": 33,
+        "authoritative_attachment_value": 30,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:10.05.01:ИУ8:10.05.01-02:source:1-1",
+        "program_name_in_document": "Математические методы в компьютерной безопасности",
+        "direction_code": "10.05.01",
+        "department_code": "ИУ8",
+        "field": "paid_places_at_department",
+        "archived_website_value": 37,
+        "authoritative_attachment_value": 35,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:10.05.03:ИУ8:10.05.03-02:source:1-1",
+        "program_name_in_document": "Разработка и анализ защищённых автоматизированных систем",
+        "direction_code": "10.05.03",
+        "department_code": "ИУ8",
+        "field": "paid_places_at_department",
+        "archived_website_value": 60,
+        "authoritative_attachment_value": 53,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:17.05.02:СМ6:17.05.02-02:source:1-1",
+        "program_name_in_document": "Системное проектирование высокоточных комплексов вооружения",
+        "direction_code": "17.05.02",
+        "department_code": "СМ6",
+        "field": "special_quota_places_direction",
+        "archived_website_value": 5,
+        "authoritative_attachment_value": 6,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:17.05.02:СМ6:17.05.02-02:source:1-1",
+        "program_name_in_document": "Системное проектирование высокоточных комплексов вооружения",
+        "direction_code": "17.05.02",
+        "department_code": "СМ6",
+        "field": "separate_quota_places_direction",
+        "archived_website_value": 5,
+        "authoritative_attachment_value": 6,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:20.03.01:Э9:20.03.01/01:source:1-1",
+        "program_name_in_document": "Безопасность жизнедеятельности в техносфере",
+        "direction_code": "20.03.01",
+        "department_code": "Э9",
+        "field": "study_duration_label",
+        "archived_website_value": "4 года",
+        "authoritative_attachment_value": "6 лет",
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:24.05.06:ИУ2:24.05.06-04:source:2-1",
+        "program_name_in_document": "Приборы и системы ориентации, стабилизации и навигации",
+        "direction_code": "24.05.06",
+        "department_code": "ИУ2",
+        "field": "special_quota_places_direction",
+        "archived_website_value": 7,
+        "authoritative_attachment_value": 8,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:24.05.06:ИУ2:24.05.06-04:source:2-1",
+        "program_name_in_document": "Приборы и системы ориентации, стабилизации и навигации",
+        "direction_code": "24.05.06",
+        "department_code": "ИУ2",
+        "field": "separate_quota_places_direction",
+        "archived_website_value": 7,
+        "authoritative_attachment_value": 8,
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      },
+      {
+        "educational_program_key": "program:bmstu:28.03.02:МТ11:28.03.02-02:source:1-1",
+        "program_name_in_document": "Наноинженерия в машиностроении",
+        "direction_code": "28.03.02",
+        "department_code": "МТ11",
+        "field": "direction_code",
+        "archived_website_value": "27.03.05",
+        "authoritative_attachment_value": "28.03.02",
+        "resolution": "authoritative_attachment_wins",
+        "match_method": "exact_department_code_and_profile_name"
+      }
+    ],
+    "previous_rows_without_unique_exact_match": 3,
+    "authoritative_rows_without_unique_exact_match": 13
+  },
+  "precedence": "The attached PDF wins for facts printed in Appendix 8.1. Other sources remain available for fields the appendix does not state."
+}

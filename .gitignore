@@ -1,0 +1,23 @@
+# Local and sensitive files
+.env
+.env.*
+!.env.example
+*.dump
+*.sql.gz
+*.backup
+*.db
+*.sqlite*
+pgdata/
+postgres-data/
+**/raw/
+**/fixtures/
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+/_validation-run-output/
+/database/academic-data/tests/
+/parsers/source-tree/src/andromeda/ingestion/universities/bmstu/parser/campaign_2026/admissions/reconcile.py

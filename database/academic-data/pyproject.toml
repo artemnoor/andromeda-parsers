@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andromeda-academic-data-db"
+version = "0.1.0"
+description = "Andromeda academic data schema, provenance, rules, classification, and offline bundle importer"
+requires-python = ">=3.11"
+dependencies = [
+  "alembic>=1.13,<2",
+  "psycopg[binary]>=3.2,<4",
+  "pydantic>=2.7,<3",
+  "sqlalchemy>=2.0,<3",
+]
+
+[project.scripts]
+academic-data = "academic_data_service.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "jsonschema>=4.22,<5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

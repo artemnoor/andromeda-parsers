@@ -1,0 +1,1 @@
+"""Safe structured logging helpers."""
